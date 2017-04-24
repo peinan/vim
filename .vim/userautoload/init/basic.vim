@@ -16,7 +16,9 @@ set textwidth=0 "自動的に改行が入るのを無効化
 "           head of line
 set backspace=start,eol,indent
 set mouse=a
-set ttymouse=xterm2
+if !has('nvim')
+  set ttymouse=xterm2
+endif
 
 " Search Setting
 set ignorecase "ignore upper/lower case

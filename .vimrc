@@ -1,3 +1,7 @@
+" Set runtimepath
+let s:vim_path = expand('~/.vim')
+execute 'set runtimepath+=' . fnamemodify(s:vim_path, ':p')
+
 " Load user settings
 runtime! userautoload/init/*.vim
 
