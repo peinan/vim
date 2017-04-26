@@ -1,3 +1,6 @@
+# Python
+# ------
+#
 # completion for python
 # [[plugins]]
 # repo = 'davidhalter/jedi-vim'
@@ -9,3 +12,15 @@
 # [[plugins]]
 # repo = 'kevinw/pyflakes-vim'
 # on_ft = 'python'
+#
+# Rust
+# ----
+
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+on_ft = 'rust'
+
+[[plugins]]
+repo = 'racer-rust/vim-racer'
+on_ft = 'rust'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-racer.vim'

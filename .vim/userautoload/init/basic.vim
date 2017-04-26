@@ -16,6 +16,7 @@ set textwidth=0 "自動的に改行が入るのを無効化
 "           head of line
 set backspace=start,eol,indent
 set mouse=a
+
 if !has('nvim')
   set ttymouse=xterm2
 endif
