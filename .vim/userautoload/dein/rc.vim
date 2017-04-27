@@ -13,10 +13,13 @@ endif
 execute 'set runtimepath^=' . s:dein_repo_path
 
 " Load dein plugins
-call dein#begin(s:dein_path)
-call dein#load_toml('~/.vim/userautoload/dein/plugins.toml', {'lazy': 0})
-call dein#load_toml('~/.vim/userautoload/dein/plugins-lazy.toml', {'lazy': 1})
-call dein#end()
+if dein#load_state(s:dein_path)
+  call dein#begin(s:dein_path)
+  call dein#load_toml('~/.vim/userautoload/dein/plugins.toml', {'lazy': 0})
+  call dein#load_toml('~/.vim/userautoload/dein/plugins-lazy.toml', {'lazy': 1})
+  call dein#end()
+  call dein#save_state()
+endif
 
 " Install not installed plugins on startup.
 if dein#check_install()
