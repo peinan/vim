@@ -1,21 +1,3 @@
-# Python
-# ------
-#
-# completion for python
-# [[plugins]]
-# repo = 'davidhalter/jedi-vim'
-# on_ft = 'python'
-# hook_add = 'source ~/.vim/userautoload/plugins/plugin-jedi-vim.vim'
-
-
-# Detect syntactic errors in python
-# [[plugins]]
-# repo = 'kevinw/pyflakes-vim'
-# on_ft = 'python'
-#
-# Rust
-# ----
-
 [[plugins]]
 repo = 'rust-lang/rust.vim'
 on_ft = 'rust'

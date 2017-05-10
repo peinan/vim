@@ -86,11 +86,6 @@ hook_add = 'let g:winresizer_start_key = "<C-W><C-W>"'
 repo = 'cohama/lexima.vim'
 
 
-# Enable to use python shell in the vim
-[[plugins]]
-repo = 'klen/python-mode'
-
-
 # Settings of lightline
 [[plugins]]
 repo = 'itchyny/lightline.vim'

@@ -12,4 +12,3 @@ set list
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
 
 highlight CursorLine cterm=reverse term=reverse
-

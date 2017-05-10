@@ -4,10 +4,21 @@ set fileencoding=utf-8
 " Tab settings
 set expandtab "convert tabs to spaces
 set smartindent "do auto-indent
-set tabstop=2 "set tab to size-2-spaces
-set shiftwidth=2 "set auto-indent-size to 2
+set tabstop=2
+set shiftwidth=2
 set softtabstop=2
+set expandtab
+set autoindent
+set smartindent
 set textwidth=0 "自動的に改行が入るのを無効化
+
+"" file-wise settings
+filetype plugin indent on
+augroup fileTypeIndnet
+  autocmd!
+  autocmd BufRead,BufNewFile *.py  setfiletype python
+  autocmd BufRead,BufNewFile *.php setfiletype php
+augroup END
 
 " Movement settings
 "   indent: Enable to delete indent
@@ -27,3 +38,4 @@ set smartcase "distinguish if upper case included in queries
 set wrapscan "go to begening after the final match
 set hlsearch "highlight matched items
 set wildmenu wildmode=list:full "list up candidates when using commandlineMode
+
