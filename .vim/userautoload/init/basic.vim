@@ -18,6 +18,7 @@ augroup fileTypeIndnet
   autocmd!
   autocmd BufRead,BufNewFile *.py  setfiletype python
   autocmd BufRead,BufNewFile *.php setfiletype php
+  autocmd BufRead,BufNewFile *.rs  setfiletype let g:quickrun_config.rust = {'exec' : 'cargo run'}
 augroup END
 
 " Movement settings

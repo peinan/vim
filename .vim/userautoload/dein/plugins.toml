@@ -86,6 +86,12 @@ hook_add = 'let g:winresizer_start_key = "<C-W><C-W>"'
 repo = 'cohama/lexima.vim'
 
 
+# Quick run any codes
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-quickrun.vim'
+
+
 # Settings of lightline
 [[plugins]]
 repo = 'itchyny/lightline.vim'
