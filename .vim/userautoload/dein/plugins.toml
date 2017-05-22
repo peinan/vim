@@ -92,6 +92,12 @@ repo = 'thinca/vim-quickrun'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-quickrun.vim'
 
 
+# Syntax check
+[[plugins]]
+repo = 'vim-syntastic/syntastic'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-syntastic.vim'
+
+
 # Settings of lightline
 [[plugins]]
 repo = 'itchyny/lightline.vim'
