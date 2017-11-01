@@ -102,3 +102,9 @@ hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-syntastic.vim'
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-lightline.vim'
+
+
+# display custom splash
+[[plugins]]
+repo = 'thinca/vim-splash'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-splash.vim'
