@@ -6,3 +6,9 @@ on_ft = 'rust'
 repo = 'racer-rust/vim-racer'
 on_ft = 'rust'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-racer.vim'
+
+[[plugins]]
+repo = 'metakirby5/codi.vim'
+on_ft = 'python'
+on_cmd = 'codi'
+

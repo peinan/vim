@@ -1,57 +1,46 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
 
-
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
-
 
 [[plugins]]
 repo = 'Shougo/vimshell'
 rev = '3787e5'
 
-
 # enable to show git info
 [[plugins]]
 repo = 'tpope/vim-fugitive'
-
 
 # something like fzf (but not using now)
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
-
 # many colorschemes
 [[plugins]]
 repo = 'flazz/vim-colorschemes'
-
 
 # テンプレート中に含まれる特定文字列を置き換える
 [[plugins]]
 repo = 'thinca/vim-template'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-template.vim'
 
-
 # Colorize Indent
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-indent-guides.vim'
 
-
 # select and <C--><C--> to commentout/discommentout
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
-
 
 # NerdTree
 # :NERDTree to call nerdtree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
-
 
 # vim-over
 # NOTE: Use MacVim.app/Contents/MacOS/Vim or it will not loaded because of erorr
@@ -59,52 +48,53 @@ repo = 'scrooloose/nerdtree'
 repo = 'osyo-manga/vim-over'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-over.vim'
 
-
 # gist-vim
 [[plugins]]
 repo = 'mattn/gist-vim'
-
 
 # multiple-cursors
 [[plugins]]
 repo = 'terryma/vim-multiple-cursors'
 
-
 # easy to insert brackets
 [[plugins]]
 repo = 'tpope/vim-surround'
-
 
 # very simple vim plugin for easy resizing of your vim windows
 [[plugins]]
 repo = 'simeji/winresizer'
 hook_add = 'let g:winresizer_start_key = "<C-W><C-W>"'
 
-
 # Auto close parentheses
 [[plugins]]
 repo = 'cohama/lexima.vim'
-
 
 # Quick run any codes
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-quickrun.vim'
 
-
 # Syntax check
 [[plugins]]
 repo = 'vim-syntastic/syntastic'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-syntastic.vim'
-
 
 # Settings of lightline
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-lightline.vim'
 
-
 # display custom splash
 [[plugins]]
 repo = 'thinca/vim-splash'
 hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-splash.vim'
+
+# enhance incsearch
+[[plugins]]
+repo = 'haya14busa/incsearch.vim'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-incsearch.vim'
+
+# enhance motions
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+hook_add = 'source ~/.vim/userautoload/plugins/plugin-vim-easymotion.vim'
