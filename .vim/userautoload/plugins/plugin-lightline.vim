@@ -7,7 +7,8 @@ let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ 'mode_map': {'c': 'NORMAL'},
   \ 'active': {
-  \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ] ]
+  \   'left': [ [ 'mode', 'paste' ],
+  \             [ 'fugitive', 'filename' ] ]
   \ },
   \ 'component_function': {
   \   'modified': 'MyModified',
@@ -41,7 +42,8 @@ endfunction
 function! MyFugitive()
   try
     if &ft !~? 'vimfiler\|gundo' && exists('*fugitive#head')
-      return fugitive#head()
+      let branch = fugitive#head()
+      return branch !=# '' ? ' ' . branch : ''
     endif
   catch
   endtry
