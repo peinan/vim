@@ -11,3 +11,10 @@
 ```
 $ ln -s ~/.vimrc ~/.vim/nvim/init.vim
 ```
+
+### Replace the colorscheme file
+
+```sh
+cp Tomorrow-Night-Eighties.vim ~/.vim/dein/repos/github.com/flazz/vim-colorschemes/colors/Tomorrow-Night-Eighties.vim
+cp Tomorrow-Night-Eighties.vim ~/.vim/dein/.cache/.vimrc/.dein/colors/Tomorrow-Night-Eighties.vim
+```
