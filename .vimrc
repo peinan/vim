@@ -1,5 +1,5 @@
 " Set runtimepath
-let s:vim_path = expand('~/.vim')
+let s:vim_path = expand('~/.config/vim')
 execute 'set runtimepath+=' . fnamemodify(s:vim_path, ':p')
 
 " Load user settings

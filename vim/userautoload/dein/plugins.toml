@@ -19,10 +19,6 @@ repo = 'tpope/vim-fugitive'
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
-# many colorschemes
-[[plugins]]
-repo = 'flazz/vim-colorschemes'
-
 # テンプレート中に含まれる特定文字列を置き換える
 [[plugins]]
 repo = 'thinca/vim-template'
